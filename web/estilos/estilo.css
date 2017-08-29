@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+	font-family: arial,sans-serif;
+}
+
+body {
+	width: 80%;
+	margin: auto; 
+	background: #aed6f7;
+}
+form{
+	box-shadow: 2px 2px 5px #999;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	background: #e2e2e2;
+	border-radius: 5px;
+	margin-top: 10%; 
+}
+div{
+	padding: 0% 5% 0% 5%;
+	margin-top: 2%;
+}
+
+textArea{
+    max-width:100%;
+    width:100%;
+    height:5%;    
+}
+input{
+	border-radius: 5%;
+	width: 100%;
+}
+select {
+        border-radius: 5%;
+	width: 100%;
+}
+#miBtn{
+	margin-top: 10px;
+	padding: 1.5%;
+	border: 2px solid #cacaca ;
+	border-radius: 5px;
+        width: 15%;
+        
+}
+#radio{
+    display: inline;
+}
+#miBtn:hover{
+	cursor: pointer;
+	background: white;
+	border: 2px solid #aed6f7;
+}
+
+.registro{
+	margin:auto;
+	font-size: 10px;
+	margin-bottom: 5%;
+}
+h2{
+	padding-top: 10%;
+	margin-bottom: 2px;
+}
+h6{
+	margin: 0;
+}
+
+/*Estilos del formulario*/
+
+.campoNombreReg{
+	text-align: left;
+	width: 30%;
+}
+.campoinputReg{
+	width: 68%;
+
+}
+.campoNombreReg,.campoinputReg{
+	display: inline-block;
+}
+
+#formReg{
+	margin-bottom: 10%;
+	margin-top: 1px;
+	width: 80%;
+}
+
+/*estilo del menu y de la pagina */
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+li{
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	border: solid 1px gray;
+	background: gray;
+	padding: 5px;
+}
+a:link{
+	text-decoration: none;	
+	color:black;
+}
+a:visited {
+	color:black;
+}
+a:active {
+	color:black;
+}
+li:hover{
+	background: #aed6f7;
+}
+#todoPag{
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px #999;
+	border-radius: 5px;
+	background: #e2e2e2;
+}
+#menu{
+	padding-top: 20px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+#contenido{
+	margin: auto;
+	width: 90%;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+video{
+	width: 100%;
+}
+.error{
+	border: solid red 2px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+}
+td{
+	padding: 6px;
+}
+.multimedia{
+	width: 50%;
+	margin: auto;
+}
+img{
+	width: 100%;
+}
+
+.footer{
+	width: 80%;
+	margin: auto;
+}
